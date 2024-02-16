@@ -17,7 +17,7 @@ import {RouterOutlet} from "@angular/router";
   ],
   templateUrl: './recipe.component.html',
   styleUrl: './recipe.component.css',
-  providers: [RecipeService]
+  providers: []
 })
 export class RecipeComponent implements OnInit{
   selectedRecipe: Recipe;

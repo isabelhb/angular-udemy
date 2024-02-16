@@ -8,6 +8,7 @@ import {FormsModule} from "@angular/forms";
 import {DropdownDirective} from "./shared/dropdown.directive";
 import {ShoppingListService} from "./shopping-list/shopping-list.service";
 import { AppRoutingModule} from "./app.routes";
+import {RecipeService} from "./recipes/recipe.service";
 
 
 @Component({
@@ -22,7 +23,7 @@ import { AppRoutingModule} from "./app.routes";
     DropdownDirective],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
-  providers: [ShoppingListService]
+  providers: [ShoppingListService, RecipeService]
 })
 export class AppComponent {
   title = 'udemy';
